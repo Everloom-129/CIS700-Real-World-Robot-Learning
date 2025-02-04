@@ -8,7 +8,7 @@ Tony Wang
 >
 > Patricia S. Churchland, V. S. Ramachandran, and Terrence J. Sejnowski
 
-
+![image-20250204113454911](./0204-Robot%20Perception%201.assets/image-20250204113454911.png)
 
 
 
@@ -71,3 +71,29 @@ The robotics is always closely connected with computer vision. Even in 2025, mod
 The 1994 critique of "pure vision" was a watershed moment, but its insights remain highly relevant today. Just as the early 90s saw a shift from **static, hierarchical perception** to **interactive, embodied vision**, modern AI is undergoing a transformation—from **static, supervised learning** toward **real-time, action-driven learning**. Future advances in **multi-modal learning, predictive modeling, and vision-language integration** may continue to shape the next era of robot perception.
 
 In essence, the lesson remains: vision is not an isolated process but a deeply **integrated, active, and goal-driven function**—one that extends far beyond pixels and into the very heart of intelligent behavior.
+
+
+
+
+
+## Archaeologist
+
+
+
+their 1994 paper, "A Critique of Pure Vision," Patricia S. Churchland, V.S. Ramachandran, and Terrence J. Sejnowski challenge the traditional view that the visual system operates independently to create a detailed internal representation of the external world.  propose that vision is deeply interconnected with other sensory modalities, motor planning, and prior knowledge, suggesting an interactive model of perception. ([triciachurchland.co(https://patriciachurchland.com/wpontent/uploads/2020/05/1994-Critique-Pure-Vision.pdf?utm_source=chatgpt.com))
+
+**Influential Preceding Work:**
+
+An earlier work that significantly influenced this paper is David Marr's "on: A Computational Investigation into the Human Representation and Processing of Visual Information" (1982). Marr's framework, which emphasizes a hierarchical and modular approach to visual processing, serves as a foundational reence point that Churchlanand colleagues critique and build upon in their discussion of interactive vision.
+
+**Subsequent Impact:**
+
+A notable work thates "A Critique of Pure Vision" is the 1997 paper titled "A Critique of Pure Audition" by Malcolm Slaney. In this paper, Slaney extends the discussion to the auditory domain, examining whether auditory perception also involves significant top-down processing and interactive elements, thereby badening the implicatnof Churchland et al.'s critique beyond vision to sensory processing in general. ([engineering.purdue.edu](https://engineering.purdue.edu/~malcolm/interval/1997-056/PureAudition.pdf?utm_source=chatgptm))
+
+In summary, "A Critique of Pure Vision" serves as a pivotal work that challenges traditional models of sensory processing, advocating for a more integrated and interactive understanding of perception.
+
+![image-20250204113533309](./0204-Robot%20Perception%201.assets/image-20250204113533309.png)
+
+
+
+![image-20250204113541531](./0204-Robot%20Perception%201.assets/image-20250204113541531.png)
