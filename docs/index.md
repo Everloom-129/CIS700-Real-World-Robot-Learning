@@ -1,14 +1,11 @@
-# CIS700 Reading Blogs
+# Research & Idea Blogs
 
 - Tony Wang
 - 02/02/2025 -- now
 
-Spring 2025. ESE 6800/CS7000. Tue / Thu 10:15-11:45. AGH 105.
+Spring 2025. ESE 6800/CS7000. Tue / Thu 10:15-11:45 
 
 ![Image](https://antonilo.github.io/real_world_robot_learning_sp25/assets/images/front_page.png)
-
-## Announcements
-
 
 
 ## Course Overview
@@ -19,13 +16,6 @@ However, despite these remarkable successes, most of these systems excel only in
 
 This course offers a structured framework to explore these questions. We will study techniques for learning-based decision-making, such as imitation learning and reinforcement learning, focusing on their practical challenges when applied in real-world scenarios. Through a combination of lectures, student presentations, hands-on projects, and guest presentations from leading experts in the field, students will gain a deep understanding of the state-of-the-art decision-making systems and their challenges when applied to robotics.
 
-### Prerequisites
-
-This is a graduate-level course. Students are expected to have prior knowledge in deep learning and robotics, such as the topics covered in Robot Learning (ESE 650), Principles of Deep Learning (ESE 546), Applied Machine Learning (CIS 5190), and Introduction to Robotics (MEAM-520).
-
-## Schedule (Tentative)
-
-The general idea behind this course is the following. We will start by going off the beaten arxiv track and read oldy but goldy papers. Then, we will use such papers to understand the roots of more recent works. Note that this schedule will evolve during the course.
 
 ## Overture
 
@@ -52,7 +42,6 @@ The general idea behind this course is the following. We will start by going off
 ## Foundations
 
 ![img](https://antonilo.github.io/real_world_robot_learning_sp25/assets/images/foundations.png)
-
 
 
 [Robot Perception 1: ***A Critique of Pure Vision***](./0204-Robot Perception 1.md)
