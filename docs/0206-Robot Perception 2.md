@@ -14,7 +14,14 @@ Robots have come a long way since the earliest ideas of AI. Initially, people be
 
 Here let we go through two classic research—Rodney Brooks’s *“Intelligence without Representation”* (1991) and Michael Erdmann’s *“Understanding Action and Sensing by Designing Action-Based Sensors”* (1995). Looking back, they offered radical new ways to think about intelligence and perception. Their insights continue to echo in present-day robotics, from agile warehouse robots to autonomous vehicles, and even in SOTA embodied AI paper like ReKep, OpenVLA and Pi0.
 
+
+> Aristotle's "de anima"
+> proprioception is the sense of the position of one's own limbs and body in space.
+> very similar to joint-based control in robotics
+
+
 ### 1. A Shift Away from Heavy Representations
+
 
 In *Intelligence without Representation*, Brooks describes experiments where small mobile robots roam real-world environments—hallways, offices, labs—without maintaining an internal, complex model of their surroundings. Instead, these robots rely on many layers of simple behaviors (or “activities”) that connect sensing directly to action. This is now known as the *subsumption architecture*.
 
@@ -55,7 +62,10 @@ We see a growing trend of using specialized sensor suites—tiny 1D LiDAR for la
 One key ancestor appears to be Rodney Brooks’s 1982 treatise, *“Symbolic Error Analysis and Robot Planning,”* which laid out concepts for analyzing how uncertainty propagates through a robot’s symbolic models—an influence clearly visible in Erdmann’s emphasis on factoring uncertainty into action-based sensor design. Moving forward in time, we see traces of Erdmann’s 1995 work shaping later scholarship like Steven LaValle’s *“Planning Algorithms”* (2006), which draws on similar ideas of leveraging geometry and uncertainty models to synthesize practical robot motion and sensing strategies.
 
 ![image-20250205234909337](./0206-Robot%20Perception%202.assets/image-20250205234909337.png)
+> Interestingly, though they do not directly cite Erdmann's work, current SOTA embodied AI papers like 3D-viTAC, UMI and Pi0 are all following the same idea.
 
+
+Overall, new robotic sensor research—like UMI and 3D-viTAC—carries on the same lineage as the late-20th-century “action-based sensing” philosophy: both approaches stress customizing perception to fit specific operational needs, thereby avoiding unnecessary global modeling. This strategy is particularly effective in scenarios that involve friction, deformation, and contact—domains that are highly localized yet strongly coupled to the robot’s actions. As hardware and algorithms continue to advance on both fronts, such “tightly coupled” sensor designs are likely to further broaden the scope of robotic systems.
 
 
 ### 3. Embodiment & Current Research Directions

@@ -27,6 +27,20 @@ Published in 2011, this paper offers a comprehensive overview of the computation
 - **Relevance Today:** The principles outlined in this paper have been highly influential in robotics. However, current robots still lag far behind human performance in many ways. The idea of using internal models for prediction and control, and of optimizing motor behavior based on a cost function, is foundational in robotics research. However, as the paper points out, challenges remain in transferring this knowledge to complex, real-world tasks. There is also the question of how to integrate these insights with a system like IAC, to allow for a robot that can not only plan and execute movements effectively but also seek out new challenges to further its development.
 - **Personal Thought:** What I find most compelling about this paper is its deep dive into the mechanisms of how humans adapt their movements. The notion that our brains are constantly optimizing our actions, often without our conscious awareness, is powerful. It's fascinating to consider how we can translate these principles into more adaptable and intelligent robots. Also the idea of multiple timescales of learning is a concept that wasn't discussed much in the 2007 paper, but is a key component of the 2011 paper. How can an intrinsic motivation system make use of these fast and slow timescales of learning for accelerated learning and adaptation?
 
+
+
+Dinesh:
+
+problem w/ many of these work are that they choose simple, static task, and the taken in vision is over simplified
+
+
+
+
+
+
+
+
+
 ### "Intrinsic Motivation Systems for Autonomous Mental Development" - A Robot's Drive to Learn
 
 This paper explores a fascinating question: can we give robots the intrinsic motivation to explore and learn like children do? The authors propose the concept of **Intelligent Adaptive Curiosity (IAC)**, an intrinsic motivation system that pushes a robot towards situations where it can maximize its learning progress.
@@ -48,3 +62,26 @@ By combining the drive for learning with the ability to optimize movements, we c
 
 
 > Another blog enhanced with ChatGPT-canvas is [here](https://chatgpt.com/canvas/shared/67ad6a63bf7881918ebd2e536101dc04) 
+
+@Yifei Li  
+That's a great insight! Your point about noise actually aiding learning reminds me of DAgger in imitation learning, where introducing on-policy corrections helps counter distribution shift. Similarly, in CNN, issues like shortcut learning arise when the model overfits to spurious correlations rather than true generalization.  
+
+Related terms that come to mind:  
+- Domain Randomization (DR): Helps models generalize by training on varied inputs.  
+- Entropy Regularization (ER): Encourages exploration in RL by injecting randomness.  
+- Dropout in DNNs: Acts as noise injection to prevent overfitting.  
+
+Could structured noise play a similar role in improving robot sensorimotor learning? 🤔  
+
+
+
+
+
+@Sagnik Anupam  
+Great analogy! The way you compare IAC’s regional experts to MoE’s gated expert selection makes me wonder—could we actually learn the gating function in sensorimotor learning rather than relying on static region-splitting rules like C1 and C2?  
+
+One possible approach could be an adaptive gating mechanism, where instead of hard thresholds for region splits, we use a neural gating network that dynamically allocates sensorimotor experiences to different experts based on meta-learning signals like uncertainty or surprise. This could prevent certain experts from being overburdened while ensuring a more balanced representation across regions.  
+
+Additionally, your mention of load balancing issues in MoE architectures got me thinking—could entropy-based regularization be used here? If a robot expert’s prediction confidence is too high, the gating function could introduce controlled randomness to encourage cross-expert generalization.  
+
+Would love to hear your thoughts on whether MoE-style gating could lead to more robust and generalizable sensorimotor learning systems! 🚀  

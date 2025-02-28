@@ -8,6 +8,9 @@ Tony Wang
 >
 > Patricia S. Churchland, V. S. Ramachandran, and Terrence J. Sejnowski
 
+This is an interesting paper saluting to Kant's 'A Critique of Pure Reason'.
+Instead of criticizing the human vision, the authors criticize the "pure vision" in computer vision.
+
 ![image-20250204113454911](./0204-Robot%20Perception%201.assets/image-20250204113454911.png)
 
 
